@@ -1043,6 +1043,10 @@ video {
     font-size: 2rem;
   }
 
+  .lg\:tw-font-medium {
+    font-weight: 500;
+  }
+
   .lg\:tw-text-\[3xl\] {
     color: 3xl;
   }

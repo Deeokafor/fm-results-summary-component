@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('assets/fonts/static/HankenGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('assets/fonts/static/HankenGrotesk-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('assets/fonts/static/HankenGrotesk-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    font-family: 'HankenGrotesk', sans-serif;
+}
+
+#score {
+    font-weight: bolder;
+}
+
+/* custom border radius for the main element since the design requirement had exceeded tailwindcss' available border radius manipulation */
+
+@media (min-width:1024px) {
+    main {
+        box-shadow: 12px 15px 45px hsla(241, 81%, 54%, 0.103);
+    }
+}
