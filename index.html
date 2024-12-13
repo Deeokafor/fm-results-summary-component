@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="custom.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
@@ -16,22 +17,22 @@
   </style>
 </head>
 <body class="tw-flex tw-justify-center tw-items-center tw-flex-col tw-h-screen tw-w-screen">
-  <main class="tw-h-screen tw-flex tw-flex-col tw-text-white lg:tw-flex-row lg:tw-items-center lg:tw-rounded-3xl lg:tw-shadow-xl lg:tw-shadow-primaryCobaltBlue/20 lg:tw-h-3/5">
-    <div id="result-header" class="tw-bg-gradient-to-b tw-bg-gradient tw-from-gradientLightSlateBlueBackground tw-to-gradientLightRoyalBlueBackground tw-rounded-b-3xl tw-h-4/6 tw-flex tw-flex-col tw-items-center tw-justify-between tw-p-10 tw-text-base tw-text-white/65 tw-font-bold lg:tw-rounded-3xl lg:tw-w-3/6 lg:tw-h-full lg:tw-py-14">
-      <h1 class="tw-text-xl">Your Result</h1>
-      <div class="tw-w-44 tw-h-44 tw-bg-gradient-to-b tw-from-gradientVioletBlueCircle tw-to-gradientPersianBlueCircle tw-rounded-full tw-flex tw-flex-col tw-items-center tw-justify-center lg:tw-h-48 lg:tw-w-48">
-        <span class="tw-font-bold tw-text-6xl tw-pb-2 tw-text-white">76</span> 
-        <span>of 100</span>
+  <main class="tw-h-screen tw-flex tw-flex-col tw-text-white lg:tw-flex-row lg:tw-items-center lg:tw-rounded-[2rem] lg:tw-shadow-xl lg:tw-shadow-primaryCobaltBlue/20 lg:tw-h-[530px] lg:tw-w-[768px]">
+    <div id="result-header" class="tw-bg-gradient-to-b tw-bg-gradient tw-from-gradientLightSlateBlueBackground tw-to-gradientLightRoyalBlueBackground tw-rounded-b-3xl tw-h-4/6 tw-flex tw-flex-col tw-items-center tw-justify-between tw-p-10 tw-text-base tw-text-white/65 tw-font-bold lg:tw-rounded-[2rem] lg:tw-w-3/6 lg:tw-h-full lg:tw-py-12 lg:tw-px-16">
+      <h1 class="tw-text-xl lg:tw-text-2xl">Your Result</h1>
+      <div class="tw-w-44 tw-h-44 tw-bg-gradient-to-b tw-from-gradientVioletBlueCircle tw-to-gradientPersianBlueCircle tw-rounded-full tw-flex tw-flex-col tw-items-center tw-justify-center lg:tw-h-52 lg:tw-w-52">
+        <span id="score" class="tw-text-6xl tw-pb-2 tw-text-white">76</span> 
+        <span class="tw-font-medium tw-text-lg">of 100</span>
       </div>
       <div class="tw-text-center">
-        <h2 class="tw-text-2xl tw-font-bold tw-mb-2 tw-text-white lg:tw-text-3xl lg:tw-mb-5">Great</h2> 
-        <div>You scored higher than 65% of the people who have taken these tests</div>
+        <h2 class="tw-text-2xl tw-font-bold tw-mb-2 tw-text-white lg:tw-text-[2rem] lg:tw-mb-5">Great</h2> 
+        <p class="tw-text-lg tw-font-medium">You scored higher than 65% of the people who have taken these tests</p>
       </div>
     </div>
 
-    <div id="result-body" class="tw-flex tw-flex-col tw-justify-between tw-px-7 tw-py-5 tw-h-4/6 tw-font-bold tw-text-neutralDarkGrayBlue lg:tw-w-3/6 lg:tw-h-full lg:tw-py-14">
-      <h1 class="tw-text-xl lg:tw-mb-2">Summary</h1>
-      <ul class="tw-flex tw-flex-col tw-justify-around tw-h-full">
+    <div id="result-body" class="tw-flex tw-flex-col tw-justify-between tw-px-7 tw-py-5 tw-h-4/6 tw-font-bold tw-text-neutralDarkGrayBlue lg:tw-w-3/6 lg:tw-h-full lg:tw-py-12 lg:tw-px-10">
+      <h1 class="tw-text-xl lg:tw-text-2xl lg:tw-mb-2">Summary</h1>
+      <ul class="tw-flex tw-flex-col tw-justify-around tw-h-full tw-text-lg">
         <li class="tw-py-4 tw-px-4 tw-rounded-xl tw-flex tw-justify-between tw-bg-primaryLightRed/10 tw-text-primaryLightRed">
           <span class="tw-flex tw-items-center tw-space-x-4"><image src="./assets/images/icon-reaction.svg" class="tw-mr-3"></image>Reaction</span><span class="tw-text-neutralDarkGrayBlue">80 <span class="tw-opacity-50">/ 100</span></span>
         </li>
@@ -51,7 +52,7 @@
   
   <div class="attribution lg:tw-mt-10">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Divine Okafor-udah</a>.
   </div>
 </body>
 </html>
