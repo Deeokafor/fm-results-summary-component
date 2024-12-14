@@ -25,6 +25,7 @@ body {
 
 #score {
     font-weight: bolder;
+    border-
 }
 
 /* custom border radius for the main element since the design requirement had exceeded tailwindcss' available border radius manipulation */
