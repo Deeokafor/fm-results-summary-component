@@ -805,6 +805,21 @@ video {
   padding-right: 4rem;
 }
 
+.tw-py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.tw-px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.tw-px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .tw-pb-2 {
   padding-bottom: 0.5rem;
 }
