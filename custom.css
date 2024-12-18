@@ -19,19 +19,34 @@
     font-style: normal;
 }
 
+/* attribution styling by frontendmentor */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsla(234, 85%, 45%, 0.7)
+  }
+
+  .attribution a {
+    color: hsla(234, 85%, 45%);
+    font-weight: 700;
+  }
+
+  .attribution a:hover {
+    text-decoration: underline;
+  }
+/* attribution styling by frontendmentor  */
+
+
+
 body {
     font-family: 'HankenGrotesk', sans-serif;
 }
 
-#score {
-    font-weight: bolder;
-    border-
-}
 
-/* custom border radius for the main element since the design requirement had exceeded tailwindcss' available border radius manipulation */
+/* Added a custom border radius for the project since the design border-radius required exceeded tailwindcss' built-in border radius options */
 
 @media (min-width:1024px) {
-    main {
+    #wrapper {
         box-shadow: 12px 15px 45px hsla(241, 81%, 54%, 0.103);
     }
 }
