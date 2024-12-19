@@ -2,7 +2,7 @@ const grandScore = document.getElementById('score');
 const summaryLists = document.querySelectorAll('.summary-list')
 let  dt;
 // Handling JSON retrieval in the browser
-fetch('../data.json')
+fetch('./data.json')
     .then(response => response.json())
     .then(data => {
         dt = data;
