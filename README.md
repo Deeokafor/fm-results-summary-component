@@ -32,18 +32,22 @@ Users should be able to:
   <img src="./assets/images/mobile_screenshot.png" width="270px" height="640px">
   <figcaption>Mobile Screen</figcaption>
 </figure>
+<br>
+<br>
 
-<br />
 <figure>
   <img src="./assets/images/tab_screen.png" width="415px" height="500px">
   <figcaption >Tablet Screen<figcaption>
 </figure>
+<br>
+<br>
 
-<br />
 <figure>
   <img src="./assets/images/desktop_screenshot.png" width="768px" height="500px">
   <figcaption>Desktop Screen</figcaption>
 </figure>
+<br>
+<br>
 
 ### Links
 
