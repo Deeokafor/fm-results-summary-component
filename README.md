@@ -25,21 +25,33 @@ Users should be able to:
 
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
-- **Bonus**: Use the local JSON data to dynamically populate the content
+- **Bonus**: Dynamically Populate the content with local JSON data 
 
 ### Screenshot
+<figure>
+  <img src="./assets/images/mobile_screenshot.png" width="270px" height="640px">
+  <figcaption>Mobile Screen</figcaption>
+</figure>
 
-![](./screenshot.jpg)
+<br />
+<figure>
+  <img src="./assets/images/tab_screen.png" width="415px" height="500px">
+  <figcaption >Tablet Screen<figcaption>
+</figure>
 
-
+<br />
+<figure>
+  <img src="./assets/images/desktop_screenshot.png" width="768px" height="500px">
+  <figcaption>Desktop Screen</figcaption>
+</figure>
 
 ### Links
 
-- Solution URL: [...]()
+- Solution URL: [https://github.com/Deeokafor/results-summary-component](https://github.com/Deeokafor/results-summary-component)
 - Live Site URL: [https://deeokafor.github.io/results-summary-component/](https://deeokafor.github.io/results-summary-component/)
 
 ## My process
-- I was picking up on learning react for component based designs. hitting the block on how to go about that, I decided to first write the project in html5 with Tailwindcss then go to break the written project in react components.
+- I was picking up on learning react for component based designs... hitting the block on how to go about that, I decided to first write the project in html5 with Tailwindcss then go on to break it into react components.
 
 ### Built with
 
@@ -78,4 +90,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I tip my hat to [AlexKMarshall
+](https://github.com/AlexKMarshall), [Grace-snow
+](https://fedmentor.dev/) & [Tharun
+](https://github.com/Code-Beaker) who took out the time to review my code and give me beneficial tips on 'accessibility when necessary'.
+

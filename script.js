@@ -1,13 +1,21 @@
 const grandScore = document.getElementById('score');
-const summaryLists = document.querySelectorAll('.summary-list')
-let  dt;
+const summaryList = document.querySelectorAll('.summary-list');
+
 // Handling JSON retrieval in the browser
 fetch('./data.json')
     .then(response => response.json())
     .then(data => {
-        dt = data;
-        console.log(dt[1]);
-        summaryLists[0].innerText = dt[0].score
+        let score = 0;
+
+        
+        for (let i = 0; i < data.length; i++) {
+            summaryList[i].innerText = data[i].score;
+            score += data[i].score;
+            console.log(data[i].score);
+        }
+
+        grandScore.innerText = Math.round(score / data.length);
+        console.log(`Total score is: ${score}`);
     })
     .catch(error => console.error(error));
 

@@ -716,6 +716,11 @@ video {
   background-color: hsl(39 100% 56% / 0.1);
 }
 
+.tw-bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
 .tw-bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -839,6 +844,14 @@ video {
   font-weight: 500;
 }
 
+.tw-font-extrabold {
+  font-weight: 800;
+}
+
+.tw-font-black {
+  font-weight: 900;
+}
+
 .tw-text-neutralDarkGrayBlue {
   --tw-text-opacity: 1;
   color: hsl(224 30% 27% / var(--tw-text-opacity, 1));
@@ -896,6 +909,17 @@ video {
 
 .active\:tw-opacity-90:active {
   opacity: 0.9;
+}
+
+@media (min-width: 768px) {
+  .md\:tw-w-full {
+    width: 100%;
+  }
+
+  .md\:tw-px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 @media (min-width: 1024px) {
