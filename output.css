@@ -589,6 +589,10 @@ video {
   display: flex;
 }
 
+.tw-hidden {
+  display: none;
+}
+
 .tw-h-40 {
   height: 10rem;
 }
