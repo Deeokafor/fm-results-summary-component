@@ -564,6 +564,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.tw-my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .tw-mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -596,56 +601,12 @@ video {
   min-height: 100svh;
 }
 
-.tw-w-0 {
-  width: 0px;
-}
-
 .tw-w-40 {
   width: 10rem;
 }
 
-.tw-w-10 {
-  width: 2.5rem;
-}
-
-.tw-w-5 {
-  width: 1.25rem;
-}
-
-.tw-w-7 {
-  width: 1.75rem;
-}
-
-.tw-w-6 {
-  width: 1.5rem;
-}
-
-.tw-w-\[\] {
-  width: ;
-}
-
-.tw-w-\[1\.2rem\] {
-  width: 1.2rem;
-}
-
-.tw-w-\[1\.\] {
-  width: 1.;
-}
-
-.tw-w-\[1\.45rem\] {
-  width: 1.45rem;
-}
-
 .tw-w-\[1\.4rem\] {
   width: 1.4rem;
-}
-
-.tw-w-\[6\] {
-  width: 6;
-}
-
-.tw-w-\[1\.4\] {
-  width: 1.4;
 }
 
 .tw-flex-col {
@@ -666,12 +627,6 @@ video {
 
 .tw-justify-around {
   justify-content: space-around;
-}
-
-.tw-space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .tw-overflow-hidden {
@@ -716,11 +671,6 @@ video {
   background-color: hsl(39 100% 56% / 0.1);
 }
 
-.tw-bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
-}
-
 .tw-bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -737,32 +687,12 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.tw-from-gradientVioletBlueCircle\/50 {
-  --tw-gradient-from: hsla(256, 72%, 46%, 0.5) var(--tw-gradient-from-position);
-  --tw-gradient-to: hsla(256, 72%, 46%, 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.tw-from-gradientVioletBlueCircle\/90 {
-  --tw-gradient-from: hsla(256, 72%, 46%, 0.9) var(--tw-gradient-from-position);
-  --tw-gradient-to: hsla(256, 72%, 46%, 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .tw-to-gradientLightRoyalBlueBackground {
   --tw-gradient-to: hsl(241, 81%, 54%) var(--tw-gradient-to-position);
 }
 
 .tw-to-gradientPersianBlueCircle {
   --tw-gradient-to: hsla(241, 72%, 46%, 0) var(--tw-gradient-to-position);
-}
-
-.tw-to-gradientLightRoyalBlueBackground\/50 {
-  --tw-gradient-to: hsl(241 81% 54% / 0.5) var(--tw-gradient-to-position);
-}
-
-.tw-to-gradientLightRoyalBlueBackground\/90 {
-  --tw-gradient-to: hsl(241 81% 54% / 0.9) var(--tw-gradient-to-position);
 }
 
 .tw-p-4 {
@@ -797,6 +727,11 @@ video {
 .tw-py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
+}
+
+.tw-px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .tw-pb-12 {
@@ -836,20 +771,20 @@ video {
   line-height: 1.75rem;
 }
 
+.tw-text-\[13px\] {
+  font-size: 13px;
+}
+
+.tw-font-black {
+  font-weight: 900;
+}
+
 .tw-font-bold {
   font-weight: 700;
 }
 
 .tw-font-medium {
   font-weight: 500;
-}
-
-.tw-font-extrabold {
-  font-weight: 800;
-}
-
-.tw-font-black {
-  font-weight: 900;
 }
 
 .tw-text-neutralDarkGrayBlue {
@@ -886,25 +821,16 @@ video {
   color: rgb(255 255 255 / 0.65);
 }
 
+.tw-text-\[\] {
+  color: ;
+}
+
 .tw-opacity-50 {
   opacity: 0.5;
 }
 
-.hover\:tw-bg-green-400:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity, 1));
-}
-
 .hover\:tw-bg-gradient-to-b:hover {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-}
-
-.focus\:tw-opacity-80:focus {
-  opacity: 0.8;
-}
-
-.active\:tw-opacity-80:active {
-  opacity: 0.8;
 }
 
 .active\:tw-opacity-90:active {
@@ -912,10 +838,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:tw-w-full {
-    width: 100%;
-  }
-
   .md\:tw-px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -923,6 +845,29 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:tw-fixed {
+    position: fixed;
+  }
+
+  .lg\:tw-bottom-0 {
+    bottom: 0px;
+  }
+
+  .lg\:tw-my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .lg\:tw-my-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .lg\:tw-my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
   .lg\:tw-mb-0 {
     margin-bottom: 0px;
   }

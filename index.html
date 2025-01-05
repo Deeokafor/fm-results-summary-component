@@ -16,8 +16,7 @@
   <script src="./script.js" defer></script>
 
   <body class="tw-flex tw-items-center tw-flex-col tw-min-h-svh lg:tw-justify-center">
-    <div id="wrapper" class="tw-flex tw-flex-col tw-text-white lg:tw-flex-row lg:tw-rounded-[2rem] lg:tw-max-h-[530px] lg:tw-max-w-[768px] tw-overflow-hidden">
-      <!-- Section 1 -->
+    <main id="wrapper"  class="tw-flex tw-flex-col tw-text-white lg:tw-flex-row lg:tw-rounded-[2rem] lg:tw-max-h-[530px] lg:tw-max-w-[768px] tw-overflow-hidden">
       <section  class="lg:tw-w-3/6">
         <header role="banner" id="result-header" class="tw-bg-gradient-to-b tw-bg-gradient tw-from-gradientLightSlateBlueBackground tw-to-gradientLightRoyalBlueBackground tw-rounded-b-[2rem] tw-flex tw-flex-col tw-items-center tw-justify-between tw-py-7 tw-pb-12 tw-px-10 tw-text-base tw-text-white/65 tw-font-bold lg:tw-rounded-[2rem] lg:tw-h-full lg:tw-py-12 lg:tw-px-16">
           <h1  class="tw-text-xl lg:tw-text-2xl">Your Result</h1>
@@ -31,10 +30,9 @@
           </div>
         </header>
       </section>
-
-      <!-- Section 2 -->
-      <div class="lg:tw-w-3/6">
-        <main  id="result-summary" class="tw-flex tw-flex-col tw-justify-between tw-px-7 tw-py-5 tw-font-bold tw-text-neutralDarkGrayBlue md:tw-px-0 lg:tw-py-12 lg:tw-px-10 lg:tw-h-full lg:tw-w-full">
+      
+      <section class="lg:tw-w-3/6">
+        <div  id="result-summary" class="tw-flex tw-flex-col tw-justify-between tw-px-7 tw-py-5 tw-font-bold tw-text-neutralDarkGrayBlue md:tw-px-0 lg:tw-py-12 lg:tw-px-10 lg:tw-h-full lg:tw-w-full">
           <h2 class="tw-text-xl tw-my-4 lg:tw-mb-3 lg:tw-mt-0 lg:tw-text-2xl">Summary</h2>
           <ul class="tw-flex tw-flex-col tw-justify-around tw-h-full tw-text-lg">
             <li class="tw-py-4 tw-px-4 tw-rounded-xl tw-flex tw-justify-between tw-bg-primaryLightRed/10 tw-text-primaryLightRed tw-mb-4 lg:tw-mb-0">
@@ -83,14 +81,15 @@
           </ul>
 
           <button class="tw-mt-3 tw-p-4 tw-bg-black/10 tw-rounded-full tw-text-center tw-text-lg tw-bg-neutralDarkGrayBlue tw-text-white lg:tw-mt-6 hover:tw-bg-gradient-to-b tw-from-gradientLightSlateBlueBackground tw-to-gradientLightRoyalBlueBackground active:tw-opacity-90">Continue</button>
-        </main>
-      </d>
-    </div>
+        </div>
+      </section>
 
-    <footer  class="attribution lg:tw-mt-10 lg:tw-font-medium">
+    </main>
+
+    <footer  class="attribution tw-px-10 tw-my-4 lg:tw-fixed lg:tw-bottom-0 lg:tw-font-medium">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
       <a href="https://www.frontendmentor.io/profile/Deeokafor" target="_blank">Divine Okafor-udah</a>.
-    </footer>
+    </footer>    
   </body>
 </html>
